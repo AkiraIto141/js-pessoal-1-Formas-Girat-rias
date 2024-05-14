@@ -1,8 +1,23 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+/* Estilização para a página */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0; /* Cor de fundo da página */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333; /* Cor do título */
+}
+
+p {
+  color: #666; /* Cor do texto */
+}
+
+canvas {
+  display: block;
+  margin: 20px auto; /* Centraliza o canvas na página */
+  border: 1px solid #ccc; /* Adiciona uma borda ao canvas */
+}
